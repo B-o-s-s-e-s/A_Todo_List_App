@@ -5,16 +5,9 @@ Foobar is a Python library for doing awesome things with strings.
 
 
 
-Installation
+Inspiration
 ---------------
-
-Requirements:
-* Linux
-* Python 3.3 and up
-
-Install using:
-
-    $ pip install foobar
+During the months of COVID quarantine, we found it harder and harder to keep on track of our daily tasks for school, work, and life. Out of the frustration we felt the need for a sense of accomplishment and order to keep note of our responsibilities. We realized the inspiring power of striking through the day's tasks one by one. From this inspiration came about the A+ Todo List app. Crossing out tasks is like winning the lottery. The achievement of completing our responsibilities is as great as great can be. We want to share victory with all and provide us with the A+ Todo List App
 
 
 
