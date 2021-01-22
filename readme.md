@@ -5,7 +5,7 @@ This todo app strips down task management into its bear essentials. An ordered l
 
 Inspiration
 ---------------
-During the months of COVID quarantine, we found it harder and harder to keep on track of our daily tasks for school, work, and life. Out of the frustration we felt the need for a sense of accomplishment and order to keep note of our responsibilities. We realized the inspiring power of striking through the day's tasks one by one. From this inspiration came about the A+ Todo List app. Crossing out tasks is like winning the lottery. The achievement of completing our responsibilities is as great as great can be. We want to share victory with all and provide us with the A+ Todo List App
+During the months of COVID quarantine, we found it harder and harder to keep on track of our daily tasks for school, work, and life. Out of the frustration we felt the need for a sense of accomplishment in our day as we completed our responsibilities of the day. From which we realized the inspiring power of striking through the day's tasks. From this inspiration came about the A+ Todo List app a sleek simple task managing app. Crossing out tasks is like winning the lottery. The achievement of completing our responsibilities is as great as great can be. We want to share victory with all and provide us with the A+ Todo List App.
 
 
 
