@@ -1,8 +1,6 @@
-Foobar
+A+ Todo List
 =============
-
-Foobar is a Python library for doing awesome things with strings.
-
+This todo app strips down task management into its bear essentials. An ordered list of tasks that can be easily deleted or archived. Nothing more, nothing less. If a thought were to come to mind easily note it down, set a day and you are ready to go with A+ Todo List app.
 
 
 Inspiration
@@ -11,33 +9,27 @@ During the months of COVID quarantine, we found it harder and harder to keep on 
 
 
 
-Usage
+How we built this
 ---------------
-
-    import foobar
-
-    foobar.awesome_method('baz')
+We build this app using our knowledge on backend development in Java and our understanding of UX/UI design principles.
 
 
 
-Development
+App functions
 ---------------
+These are the following functions available on the app right now.
+Adding tasks: Creating using the plus button on the bottom right
+Setting a date: Upon task creation the calendar icon helps with setting a date
+Submitting tasks: The plus icon that is in the dialog window adds the task to the list
+Changing tasks: Click on the task and edit text and date
+Rearranging tasks: Hold and drag the task to rearrange to you liking
+Deleting tasks: Swipe a task to the right to delete a task
+Archiving functions: Swipe a task to the left to delete a task
+Undo function: Upon deleting or archiving an undo function will appear at the bottom
 
-    $ virtualenv foobar
-    $ . foobar/bin/activate
-    $ pip install -e .
 
-
-
-Contributing
+What is next
 ---------------
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+For the nexts steps, we plan to include themes to fit the expressions for our users and to add a database to store your todo notes and make the application persistent.
 
 
-
-License
----------------
-MIT <https://choosealicense.com/licenses/mit/>
