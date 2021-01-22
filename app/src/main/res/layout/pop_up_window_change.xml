@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF9F6"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <!--    <EditText-->
+<!--        android:id="@+id/dueDate"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Due date"-->
+<!--        android:inputType="textPersonName" />-->
+
+    <!--   <Button-->
+<!--        android:id="@+id/dueDate"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="#8A8989"-->
+<!--        android:text="Calendar"-->
+<!--        android:textColor="#F7F6F8"-->
+<!--        tools:layout_editor_absoluteX="59dp"-->
+<!--      tools:layout_editor_absoluteY="329dp" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Add Task"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/submit_you"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/calendar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintEnd_toStartOf="@+id/submit_you"
+        app:layout_constraintStart_toEndOf="@+id/taskLabel"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/first_step"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/taskLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:ems="10"
+        android:hint="Input task"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/submit_you"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/submit_you"
+        tools:ignore="VectorDrawableCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
